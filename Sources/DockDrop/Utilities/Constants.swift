@@ -17,5 +17,9 @@ enum Constants {
     static let maxVisibleApps: Int = 14
 
     static let magnificationMaxScale: CGFloat = 1.7
-    static let magnificationEffectRadius: CGFloat = 140.0
+    static let hoverInfluenceRadiusMultiplier: CGFloat = 1.9
+    static let hoverSelectionThreshold: CGFloat = 0.18
+    static let hoverHitSlopMultiplier: CGFloat = 0.35
+    static let hoverSmoothingFactor: CGFloat = 0.5
+    static let hoverAnimationDuration: TimeInterval = 0.08
 }
